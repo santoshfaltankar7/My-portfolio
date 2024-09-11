@@ -13,7 +13,7 @@ body{
 }
 header{
     
-    background-color: #46211A;
+    background-color: #8f3725;
    
 }
 .namefre{
@@ -34,17 +34,18 @@ header{
 
 }
 main{
-    background-color: #A43820 ;
-    height: 100vh;
+    background-color: #c36d59 ;
 }
+
 .main{
-    display: flex;
     gap: 300px;
     padding-top: 200px;
 }
+
 .left h1{
 font-size: 50px;
 }
+
 .left span{
     color: white;
     font-family: "Audiowide", sans-serif;
