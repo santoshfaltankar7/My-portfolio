@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    height: 100vh;
+    font-size: 15px;
+
+}
+header{
+    
+    background-color: #46211A;
+   
+}
+.namefre{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.list li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+}
+.list li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+
+}
+main{
+    background-color: #A43820 ;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    gap: 300px;
+    padding-top: 200px;
+}
+.left h1{
+font-size: 50px;
+}
+.left span{
+    color: white;
+    font-family: "Audiowide", sans-serif;
+
+}
+#about{
+    background-color: rgb(222, 231, 249);
+    height: 100vh;
+    animation: slide 30s infinite;
+}
+.aboutMain{
+    position: relative;
+}
+
+
+#about h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.aboutleft {
+    position: relative;
+}
+.aboutleft p{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: #330000;
+    position: absolute; /* Stack paragraphs on top of each other */
+    
+}
+.aboutleft p span{
+    color:rgb(245, 62, 12);
+    font-family: "Audiowide", sans-serif;
+}
+
+.pa {
+   
+    opacity: 0;
+    animation: myani 20s infinite;
+    position: absolute;
+   
+}
+.pa:nth-child(1){
+    animation-delay: 0s;
+}
+.pa:nth-child(2) {
+    animation-delay: 10s;
+}
+
+.aboutMain:hover .pa {
+    animation-play-state: paused;
+}
+
+
+@keyframes myani{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#Contact {
+    background-color: rgb(222, 231, 249);
+    padding: 20px 0;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+  .btn{
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(48, 153, 153);
+  font-size: 30px;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+} 
+.btn:hover{
+background-color: black;
+color: rgb(177, 201, 201);
+
+} 
+footer{
+    background-color: #90AFC5;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+footer span{
+    color: #fff;
+
+}
